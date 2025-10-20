@@ -1,0 +1,48 @@
+/* src/pages/Register.css */
+
+/* for reg and login */
+
+.register-container {
+  min-height: 100vh;
+  background: linear-gradient(135deg, #329494 0%, #42a5f5 100%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+}
+
+.register-card {
+  background-color: rgba(255, 255, 255, 0.98);
+  backdrop-filter: blur(10px);
+  border-radius: 20px;
+  padding: 2.5rem;
+  width: 100%;
+  max-width: 490px;
+  min-height: 78vh;
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.2);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+/* Light green button style */
+.btn-success {
+  background-color: #329494 !important;
+  border-color: #38c172 !important;
+}
+
+.btn-success:hover {
+  background-color: #00b4b4 !important;
+  border-color: #2fa360 !important;
+}
+
+
+.btn-outline-secondary {
+  color: #6c757d;
+  border-color: #ced4da;
+  background-color: #ffffffaa;
+}
+
+.btn-outline-secondary:hover {
+  background-color: #e9ecef;
+  border-color: #bfc6cc;
+}
+

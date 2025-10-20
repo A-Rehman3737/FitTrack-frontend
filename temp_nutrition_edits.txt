@@ -1,0 +1,18 @@
+NutritionList.tsx has many emojis that need replacement:
+
+Console errors (3):
+- Line 61, 76, 134: ❌ → Remove emoji from console.error
+
+UI emojis that need FontAwesome replacements:
+- Line 196: 🥗 Your Meal Intakes → faUtensils icon badge
+- Line 222: 📊 Nutrition Analytics → faChartBar
+- Line 237: 🔍 e.g. Apple → faSearch (in placeholder)
+- Line 302: 📊 → faChartBar
+- Line 201, 218: 🍽 → faUtensils
+- Line 223, 227: 🥄, 🔥 → faSpoon, faFire
+- Line 255, 261, 268: 🍞🍗🧈 → faBreadSlice, faDrumstickBite, faButter (or generic icons)
+- Line 319, 323, 328, 333, 337, 341, 346, 350, 355, 360, 365, 370: Various nutrition info emojis
+- Line 398: ✏️ Edit → faPencil
+- Line 456: 📸 Upload → faCamera
+
+Strategy: Replace with FontAwesomeIcon components where appropriate and remove from console errors.
